@@ -30,7 +30,7 @@ Distributed directly via **Swift Package Manager (SPM)** with precompiled binary
 2. Go to **File → Add Package Dependencies...**
 3. In the search box, enter the repository URL:
    ```text
-   https://github.com/iOSSDKInvestwell/MintSDK
+   https://github.com/investwell-tools/mint-ios-sdk
    ```
 4. Configure the dependency rule:
    - **Dependency Rule**: `Up to Next Major Version` or `Exact Version`
@@ -151,7 +151,7 @@ class HomeViewController: UIViewController {
 3. Select the **Package Dependencies** tab.
 4. Click **`+`** and enter:
    ```text
-   https://github.com/iOSSDKInvestwell/MintSDK
+   https://github.com/investwell-tools/mint-ios-sdk
    ```
 5. Set the version to `1.1.4` and add **MintFrameworks** to the **Runner** target.
 
