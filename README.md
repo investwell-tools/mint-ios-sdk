@@ -34,7 +34,7 @@ Distributed directly via **Swift Package Manager (SPM)** with precompiled binary
    ```
 4. Configure the dependency rule:
    - **Dependency Rule**: `Up to Next Major Version` or `Exact Version`
-   - **Version**: `1.1.4`
+   - **Version**: `1.0.0`
 5. Select **MintFrameworks** and add it to your application target.
 6. Click **Add Package**.
 
