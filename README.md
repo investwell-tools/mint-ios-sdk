@@ -153,7 +153,7 @@ class HomeViewController: UIViewController {
    ```text
    https://github.com/investwell-tools/mint-ios-sdk
    ```
-5. Set the version to `1.1.4` and add **MintFrameworks** to the **Runner** target.
+5. Set the version to `1.0.0` and add **MintFrameworks** to the **Runner** target.
 
 ### Step 2: Update `ios/Runner/AppDelegate.swift`
 
