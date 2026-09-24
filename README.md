@@ -309,3 +309,4 @@ class MintSDK {
 | `isSessionAvailableForNativeApps(navigationController:)` | `Bool` | Native Swift | Checks if an active session already exists in the navigation stack. |
 | `isSessionAvailable()` | `Bool` | Flutter / Native | Checks if valid session credentials are authenticated. |
 | `clearSDKSession()` | `Bool` | Flutter / Native | Clears all cached tokens, credentials, and cookies. **Must be called on app logout**. |
+## Note: If Podfile have mintramework remove it from Pod file
