@@ -8,10 +8,6 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "MintSDK",
-            targets: ["MintFrameworksWrapper"]
-        ),
-        .library(
             name: "MintFrameworks",
             targets: ["MintFrameworksWrapper"]
         )
@@ -30,13 +26,13 @@ let package = Package(
     targets: [
         .binaryTarget(
                       name: "MintFrameworksBinary",
-             url: "https://github.com/investwell-tools/mint-ios-sdk/releases/download/1.0.0/MintFrameworks.xcframework.zip",
-            checksum: "abb4ba8361ab29365a92a9ca43b48ea6a705f185fabb82d7fc1e8c39ad3b531c"
+             url: "https://github.com/investwell-tools/mint-ios-sdk/releases/download/1.0.1/MintFrameworks.xcframework.zip",
+            checksum: "7510501c4a8a4184865a77e9ee9f7dd7020447cd9809f65081ea25454c2072dd"
         ),
         .binaryTarget(
                      name: "VoltFrameworkBinary",
-           url: "https://github.com/investwell-tools/mint-ios-sdk/releases/download/1.0.0/VoltFramework.xcframework.zip",
-            checksum: "c5c3831c681678eeeaa4b6d0f31faa9b42a7a55c6f6a5d3ca99780c5e021c81f"
+           url: "https://github.com/investwell-tools/mint-ios-sdk/releases/download/1.0.1/VoltFramework.xcframework.zip",
+            checksum: "2f882f0d15457b500a8f842fbb88b20795a0b8664991aebe1d6f67f671fc83b8"
         ),
         .target(
             name: "MintFrameworksWrapper",
