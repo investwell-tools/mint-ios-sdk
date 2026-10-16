@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+userdata/
+DerivedData/
+*.xcframework
+*.xcframework.zip
